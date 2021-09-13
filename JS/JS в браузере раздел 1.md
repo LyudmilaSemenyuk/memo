@@ -26,7 +26,7 @@ var product = document.querySelector('.product');
 // Но когда добавляем класс, точки нет!
 product.classList.add('product--sale');
 ```
-Результат работы classList.add() такой же, как при ручном добавлении класса в разметку:
+Результат работы classList.add() такой же, как при ручном добавлении класса в разметку
 ```html
 <!-- Исходное состояние разметки -->
 <li class="product">
