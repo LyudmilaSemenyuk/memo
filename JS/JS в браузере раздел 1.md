@@ -33,7 +33,7 @@ product.classList.add('product--sale');
   …
 </li>
 
-<!-- Состояние после вызова classList.add -->
+<!-- Состояние после вызова classList.add --> 
 <li class="product product--sale">
   …
 </li>
