@@ -47,7 +47,7 @@ console.log(p.textContent);
 <p>Теперь у меня новое содержимое.</p>
 Работа с изображениями:
 // Создание изображения
-var picture = document.createElement('img');
+`var picture = document.createElement('img');`
 
 // Добавляем адрес картинки
 picture.src = 'images/picture.jpg';
