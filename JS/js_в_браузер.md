@@ -38,16 +38,20 @@ var p = document.querySelector('p');
 console.log(p.textContent);
 // Выведет: Я — текстовый элемент.
 ```
-
+```js
 p.textContent = 'Теперь у меня новое содержимое.';
 console.log(p.textContent);
 // Выведет: Теперь у меня новое содержимое.
+```
 
 // В HTML содержание тега изменится
+```html
 <p>Теперь у меня новое содержимое.</p>
+```
 Работа с изображениями:
+```js
 // Создание изображения
-`var picture = document.createElement('img');`
+var picture = document.createElement('img');
 
 // Добавляем адрес картинки
 picture.src = 'images/picture.jpg';
@@ -57,4 +61,4 @@ picture.alt = 'Непотопляемая селфи-палка';
 
 // Добавляет изображение в конец родительского элемента
 element.appendChild(picture);
-
+```
